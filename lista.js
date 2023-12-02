@@ -13,7 +13,7 @@ export function adicionaNaLista(novoItem){
 }
 
 export function removeDaLista(){
-    lista.splice(2);
+    lista.splice(1, 1);
 }
 
 //export {getlista};
