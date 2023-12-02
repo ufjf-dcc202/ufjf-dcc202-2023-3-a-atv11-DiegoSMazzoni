@@ -1,5 +1,5 @@
 // main.js
-import { adicionarNaLista, getLista, limpaLista, removeDaLista } from "./lista.js";
+import { adicionaNaLista, getLista, limpaLista, removeDaLista } from "./lista.js";
 
 // Passo 1 - Ache os elementos importantes
 const pEntrada = document.querySelector('#entrada');
@@ -16,7 +16,7 @@ atualizarItensDeLista();
 
 function criaElementoNaLista(){
     const texto = pEntrada.textContent;
-    adicionarNaLista(texto);
+    adicionaNaLista(texto);
     atualizarItensDeLista();
     pEntrada.textContent="";
     pEntrada.focus();
