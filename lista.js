@@ -12,8 +12,8 @@ export function adicionaNaLista(novoItem){
     lista.push(novoItem);
 }
 
-export function removeDaLista(){
-    lista.splice(1, 1);
+export function removeDaLista(posicao){
+    lista.splice(posicao, 1);
 }
 
 //export {getlista};
